@@ -1,3 +1,5 @@
+console.log(typeof window);
+
 if ( typeof window === 'undefined' ) {
   require('../../app/strings');
   var expect = require('chai').expect;
